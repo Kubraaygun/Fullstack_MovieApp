@@ -3,7 +3,6 @@ const http = require("http");
 // 1) server olustur
 
 const server = http.createServer((req, res) => {
-  console.log("Istek Geldi", req.method);
   res.end("Server Saglikli");
 });
 
